@@ -6,8 +6,10 @@
 - Total time taken: 7m 37s, 892 lines of code in `src/`
 - A history of prompts involved and time time each step took:
     - Using latest [OpenCode](https://github.com/anomalyco/opencode/) (1.2.6) with Kimi K2.5 via OpenCode Zen Free
+- In **Plan Mode**
 - Create a plan for implementing a tetris game in C++ using SDL2 in this directory
     - 16.3s
+- In **Build Mode**
 - Go for it
     - 2m 32s
 - It failed with the following error:
