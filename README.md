@@ -1,9 +1,10 @@
 #### Tetris Game in C++ using SDL2 - implemented by Kimi K2.5 via OpenCode Zen Free
 - This is mostly just to demonstrate that a an open source and freely hosted model can, indeed create a GUI tetris game in C++.
-
+    - It's not perfect, but it demonstrates that minimal effort can produce a working game.
     - My first attempt did not specify SDL and it worked on the first shot, but was just a terminal app.
-- A breakdown of the steps this involved and time time each step took:
-- Latest OpenCode with Kimi K2.5 via OpenCode Zen Free
+
+- A history of prompts involved and time time each step took:
+    - Using latest OpenCode (1.2.6) with Kimi K2.5 via OpenCode Zen Free
 - Create a plan for implementing a tetris game in C++ using SDL2 in this directory
     - 16.3s
 - Go for it
