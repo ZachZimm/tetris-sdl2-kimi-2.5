@@ -1,10 +1,11 @@
-#### Tetris Game in C++ using SDL2 - implemented by Kimi K2.5 via OpenCode Zen Free
+#### Tetris Game in C++ using SDL2 - implemented by Kimi K2.5 via [OpenCode](https://github.com/anomalyco/opencode/) Zen Free
 - This is mostly just to demonstrate that a an open source and freely hosted model can, indeed create a GUI tetris game in C++.
     - It's not perfect, but it demonstrates that minimal effort can produce a working game.
     - My first attempt did not specify SDL and it worked on the first shot, but was just a terminal app.
 
+- Total time taken: 7m 37s, 892 lines of code in `src/`
 - A history of prompts involved and time time each step took:
-    - Using latest OpenCode (1.2.6) with Kimi K2.5 via OpenCode Zen Free
+    - Using latest [OpenCode](https://github.com/anomalyco/opencode/) (1.2.6) with Kimi K2.5 via OpenCode Zen Free
 - Create a plan for implementing a tetris game in C++ using SDL2 in this directory
     - 16.3s
 - Go for it
@@ -17,13 +18,13 @@
     - 1m 35s
 - While the game works, I don't seem to have this font installed, as all of the text is just white boxes. Switch the font to one that is installed on my machine.
     - 2m 11s including time waiting for me to allow it to read my fonts directory
-- Working tetris game
 - The game works and text is readable, but when I complete a game and attempt to restart, the game crashes with the following error:
     ```
     /usr/include/c++/15.2.1/bits/stl_vector.h:1263: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](size_type) [with _Tp = std::vector<int>; _Alloc = std::allocator<std::vector<int> >; reference = std::vector<int>&; size_type = long unsigned int]: Assertion '__n < this->size()' failed.
     zsh: IOT instruction (core dumped)  ./build/tetris
     ```
     - 23.4s
+- Working Tetris game
 
 ![tetris.png](tetris.png)
 ![tetris_gameover.png](tetris_gameover.png)
